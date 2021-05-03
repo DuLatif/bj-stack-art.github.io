@@ -5,15 +5,36 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Latif Porto</title>
 
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 	<link rel="shortcut icon" href="asset/logo.svg">
 	<link rel="stylesheet" href="app.css">
+
+	<style>
+		::-webkit-scrollbar {
+		  width: 6px;
+		  height: 10px;
+		}
+
+		::-webkit-scrollbar-track {
+		  width: 6px;
+		  background: #FeFeFe;
+		}
+
+		::-webkit-scrollbar-thumb {
+		  background-color: #ac94fa;
+		  border-radius: 10px;
+		}
+	</style>
+
 </head>
 <body id="home">
 	
 
 	<!-- Banner -->
 	<div class="bg-gradient-to-b from-blue-400 md:h-screen">
-		<header class="hidden md:flex flex-row py-8 px-12 items-center justify-between">
+		<header data-aos="fade-down" class="hidden md:flex flex-row py-8 px-12 items-center justify-between">
 			<div>
 				<img src="asset/logo.svg" class="h-12" alt="logo">
 			</div>
@@ -27,28 +48,28 @@
 		</header>
 
 		<div class="text-center text-blue-600 py-24 md:py-10 px-4 md:px-15">
-			<img src="asset/logo.svg" alt="logo" class="bg-white rounded-full p-3 h-24 w-24 mx-auto mb-3">
-			<h3 class="uppercase font-black md:text-xl">welcome!!!</h3>
-			<h4 class="text-3xl md:text-6xl mb-2">I`m <span class="font-semibold">Web Developer</span></h4>
+			<img data-aos="fade-down" src="asset/logo.svg" alt="logo" class="bg-white rounded-full p-3 h-24 w-24 mx-auto mb-3">
+			<h3 data-aos="fade-down" data-aos-delay="200" class="uppercase font-black md:text-xl">welcome!!!</h3>
+			<h4 data-aos="fade-down" data-aos-delay="400" class="text-3xl md:text-6xl mb-2">I`m <span class="font-semibold">Web Developer</span></h4>
 			<div class="flex flex-row gap-3 md:gap-6 justify-center">
-				<a href="" class="inline-block shadow-md rounded-full">
+				<a data-aos="fade-left" data-aos-delay="1000" href="" class="inline-block shadow-md rounded-full">
 					<img src="asset/socmed/fb.svg" alt="fb icon">
 				</a>
-				<a href="" class="inline-block shadow-md rounded-full">
+				<a data-aos="fade-left" data-aos-delay="800" href="" class="inline-block shadow-md rounded-full">
 					<img src="asset/socmed/ig.svg" alt="ig icon">
 				</a>
-				<a href="" class="inline-block shadow-md rounded-full">
+				<a data-aos="fade-left" data-aos-delay="600" href="" class="inline-block shadow-md rounded-full">
 					<img src="asset/socmed/tw.svg" alt="tw icon">
 				</a>
-				<a href="" class="inline-block shadow-md rounded-full">
+				<a data-aos="fade-left" data-aos-delay="400" href="" class="inline-block shadow-md rounded-full">
 					<img src="asset/socmed/wa.svg" alt="wa icon">
 				</a>
-				<a href="" class="inline-block shadow-md rounded-full">
+				<a data-aos="fade-left" data-aos-delay="200" href="" class="inline-block shadow-md rounded-full">
 					<img src="asset/socmed/yt.svg" alt="yt icon">
 				</a>
 			</div>
 			<div class="my-8 md:my-15">
-				<button class="uppercase hover:outline-none shadow-md font-black bg-white rounded-full px-6 py-1 text-blue-400">more</button>
+				<button data-aos="fade-up" data-aos-delay="1200" class="uppercase hover:outline-none shadow-md font-black bg-white rounded-full px-6 py-1 text-blue-400">more</button>
 			</div>
 		</div>
 	</div>
@@ -64,12 +85,12 @@
 	<!-- About -->
 	<div id="about" class="about flex flex-col md:flex-row gap-5 md:w-4/5 mx-auto text-gray-600 items-center py-12 md:py-20 px-4">
 		<div class="md:w-1/3">
-			<img src="asset/about.jpg" alt="about photo" class="w-4/5 mx-auto">
+			<img data-aos="fade-right" src="asset/about.jpg" alt="about photo" class="w-4/5 mx-auto">
 		</div>
-		<div class="md:w-2/3 text-center md:text-left">
+		<div data-aos="fade-left" class="md:w-2/3 text-center md:text-left">
 			<h4 class="font-black">My name is Latif</h4>
 			<h1 class="font-semibold text-2xl md:text-4xl my-2">I`m Profesional Web Developer Having Years of Experience</h1>
-			<p class="text-light text-sm md:text-base">Lorem, ipsum dolor sit, amet consectetur adipisicing elit. Explicabo provident corrupti nisi dolore praesentium fuga itaque, veniam voluptatum ipsa aliquam suscipit quo odit ullam in hic. Dolorum molestias provident, ipsum!</p>
+			<p class="text-light text-sm md:text-base">I'm a full stack web developer I am familiar with the laravel framework and react js. I can create a web with frontend and backend. I usually code apps with playing music</p>
 			<div class="my-5 text-left text-sm md:text-base">
 				<div class="flex flex-row gap-4 my-2 w-2/3 justify-between">
 					<p class="font-bold w-1/2">Full Name</p>
@@ -92,7 +113,7 @@
 					<p class="font-light w-1/2">bj.angel119@gmail.com</p>
 				</div>
 			</div>
-			<a href="" class="bg-blue-400 text-white font-bold uppercase py-2 px-6 rounded-full mt-2 inline-block">Download Resume</a>
+			<a href="asset/resume.jpg" class="bg-blue-400 text-white font-bold uppercase py-2 px-6 rounded-full mt-2 inline-block">Download Resume</a>
 		</div>
 	</div>
 	<!-- End of About -->
@@ -104,39 +125,39 @@
 
 
 	<!-- Skill -->
-	<div id="skill" class="py-20 w-4/5 mx-auto text-gray-600">
+	<div id="skill" class="py-12 md:py-20 w-4/5 mx-auto text-gray-600">
 		<h1 class="font-bold text-center text-4xl mb-5">Skill</h1>
 		<div class="flex flex-col md:flex-row gap-6 my-5">
 			<div class="md:w-1/2">
-				<h5 class="text-lg font-semibold">Programming Language</h5>
+				<h5 data-aos="fade-right" class="text-lg font-semibold">Programming Language</h5>
 				<div class="flex flex-row flex-wrap gap-5 my-3">
-					<div class="bg-blue-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
-					<div class="bg-blue-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
-					<div class="bg-blue-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
-					<div class="bg-blue-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
-					<div class="bg-blue-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
+					<div data-aos="fade-right" data-aos-delay="100" class="bg-blue-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
+					<div data-aos="fade-right" data-aos-delay="300" class="bg-blue-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
+					<div data-aos="fade-right" data-aos-delay="500" class="bg-blue-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
+					<div data-aos="fade-right" data-aos-delay="700" class="bg-blue-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
+					<div data-aos="fade-right" data-aos-delay="900" class="bg-blue-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
 				</div>
 			</div>
 			<div class="md:w-1/2">
-				<h5 class="text-lg font-semibold">Framework</h5>
+				<h5 data-aos="fade-right" class="text-lg font-semibold">Framework</h5>
 				<div class="flex flex-row flex-wrap gap-5 my-3">
-					<div class="bg-purple-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
-					<div class="bg-purple-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
-					<div class="bg-purple-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
-					<div class="bg-purple-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
-					<div class="bg-purple-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
+					<div data-aos="fade-right" data-aos-delay="100" class="bg-purple-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
+					<div data-aos="fade-right" data-aos-delay="300" class="bg-purple-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
+					<div data-aos="fade-right" data-aos-delay="500" class="bg-purple-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
+					<div data-aos="fade-right" data-aos-delay="700" class="bg-purple-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
+					<div data-aos="fade-right" data-aos-delay="900" class="bg-purple-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
 				</div>
 			</div>
 		</div>
 		<div class="flex flex-col md:flex-row gap-6 my-5">
 			<div class="md:w-1/2">
-				<h5 class="text-lg font-semibold">Others</h5>
+				<h5 data-aos="fade-right" class="text-lg font-semibold">Others</h5>
 				<div class="flex flex-row flex-wrap gap-5 my-3">
-					<div class="bg-teal-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
-					<div class="bg-teal-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
-					<div class="bg-teal-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
-					<div class="bg-teal-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
-					<div class="bg-teal-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
+					<div data-aos="fade-right" data-aos-delay="100" class="bg-teal-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
+					<div data-aos="fade-right" data-aos-delay="300" class="bg-teal-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
+					<div data-aos="fade-right" data-aos-delay="500" class="bg-teal-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
+					<div data-aos="fade-right" data-aos-delay="700" class="bg-teal-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
+					<div data-aos="fade-right" data-aos-delay="900" class="bg-teal-400 w-14 md:w-20 h-14 md:h-20 rounded-full shadow-md"></div>
 				</div>
 			</div>
 		</div>
@@ -149,10 +170,10 @@
 
 
 	<!-- Experience -->
-	<div id="experience" class="bg-blue-400 py-20 px-4 md:px-20 my-20">
+	<div id="experience" class="bg-blue-400 py-12 md:py-20 px-4 md:px-20 my-20">
 		<h1 class="font-bold text-center text-white text-4xl mb-5">Experience</h1>
 		<div class="flex flex-col-reverse mt-8 md:my-0 md:flex-row md:gap-12 justify-center md:w-4/5 mx-auto">
-			<div class="py-1 md:py-3 w-full md:w-2/5">
+			<div data-aos="fade-right" class="py-1 md:py-3 w-full md:w-2/5">
 				<div class="bg-white text-gray-600 w-full rounded shadow-lg p-4 text-center md:text-right">
 					<h2 class="font-semibold text-2xl">Syariah Saham</h2>
 					<h4 class="font-bold text-sm text-purple-400">Full Stack Web Developer</h4>
@@ -163,14 +184,14 @@
 				<div class="w-5 h-5 mt-4 bg-blue-600 absolute rounded-full transform z-20 -translate-x-2"></div>
 				<div class="bg-white opacity-50 w-0.5 h-36 transform scale-y-125"></div>
 			</div>
-			<div class="py-1 md:py-3 w-full md:w-2/5">
+			<div data-aos="fade-left" class="py-1 md:py-3 w-full md:w-2/5">
 				<div class="bg-purple-400 text-white rounded-md shadow-lg py-2 px-6">
 					<p>February 2021 - now</p>
 				</div>
 			</div>
 		</div>
 		<div class="flex flex-col-reverse mt-8 md:my-0 md:flex-row md:gap-12 justify-center md:w-4/5 mx-auto">
-			<div class="py-1 md:py-3 w-full md:w-2/5">
+			<div data-aos="fade-right" data-aos-delay="200" class="py-1 md:py-3 w-full md:w-2/5">
 				<div class="bg-white text-gray-600 w-full rounded shadow-lg p-4 text-center md:text-right">
 					<h2 class="font-semibold text-2xl">Akmakom Training Center</h2>
 					<h4 class="font-bold text-sm text-purple-400">Full Stack Web Developer</h4>
@@ -181,7 +202,7 @@
 				<div class="w-5 h-5 mt-4 bg-blue-600 absolute rounded-full transform z-20 -translate-x-2"></div>
 				<div class="bg-white opacity-50 w-0.5 h-36 transform scale-y-125"></div>
 			</div>
-			<div class="py-1 md:py-3 w-full md:w-2/5">
+			<div data-aos="fade-left" data-aos-delay="200" class="py-1 md:py-3 w-full md:w-2/5">
 				<div class="bg-purple-400 text-white rounded-md shadow-lg py-2 px-6">
 					<p>June 2020 - January 2021</p>
 				</div>
@@ -197,10 +218,10 @@
 
 
 	<!-- Education -->
-	<div class="py-20 px-2 md:px-20 text-gray-600">
+	<div class="py-12 md:py-20 px-2 md:px-20 text-gray-600">
 		<h1 class="font-bold text-center text-4xl mb-5">Education</h1>
 		<div class="flex flex-col-reverse my-8 md:my-0 md:flex-row md:gap-12 justify-center w-4/5 mx-auto">
-			<div class="py-1 md:py-3 md:w-2/5">
+			<div data-aos="fade-right" class="py-1 md:py-3 md:w-2/5">
 				<div class="bg-white w-full rounded shadow-lg p-4 text-center md:text-right">
 					<h2 class="font-semibold text-2xl">SMK N 1 Kawunganten</h2>
 					<h4 class="font-bold text-sm text-purple-400">Multimedia</h4>
@@ -211,14 +232,14 @@
 				<div class="w-5 h-5 mt-4 bg-blue-400 absolute rounded-full transform z-20 -translate-x-2"></div>
 				<div class="bg-blue-100 w-0.5 h-36 transform scale-y-125"></div>
 			</div>
-			<div class="py-1 md:py-3 md:w-2/5">
+			<div data-aos="fade-left" class="py-1 md:py-3 md:w-2/5">
 				<div class="bg-purple-400 text-white rounded-md shadow-lg py-2 px-6">
 					<p>June 2018 - May 2021</p>
 				</div>
 			</div>
 		</div>
 		<div class="flex flex-col-reverse my-8 md:my-0 md:flex-row md:gap-12 justify-center w-4/5 mx-auto">
-			<div class="py-1 md:py-3 md:w-2/5">
+			<div data-aos="fade-right" data-aos-delay="200" class="py-1 md:py-3 md:w-2/5">
 				<div class="bg-white text-gray-700 w-full rounded shadow-lg p-4 text-center md:text-right">
 					<h2 class="font-semibold text-2xl">SMP N 1 Gandrungmangu</h2>
 					<p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse recusandae necessitatibus, ratione ducimus reprehenderit, illo!</p>
@@ -228,14 +249,14 @@
 				<div class="w-5 h-5 mt-4 bg-blue-400 absolute rounded-full transform z-20 -translate-x-2"></div>
 				<div class="bg-blue-100 w-0.5 h-36 transform scale-y-125"></div>
 			</div>
-			<div class="py-1 md:py-3 md:w-2/5">
+			<div data-aos="fade-left" data-aos-delay="200" class="py-1 md:py-3 md:w-2/5">
 				<div class="bg-purple-400 text-white rounded-md shadow-lg py-2 px-6">
 					<p>June 2015 - May 2018</p>
 				</div>
 			</div>
 		</div>
 		<div class="flex flex-col-reverse my-8 md:my-0 md:flex-row md:gap-12 justify-center w-4/5 mx-auto">
-			<div class="py-1 md:py-3 md:w-2/5">
+			<div data-aos="fade-right" data-aos-delay="400" class="py-1 md:py-3 md:w-2/5">
 				<div class="bg-white text-gray-700 w-full rounded shadow-lg p-4 text-center md:text-right">
 					<h2 class="font-semibold text-2xl">SD N 1 Bantarsari</h2>
 					<p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse recusandae necessitatibus, ratione ducimus reprehenderit, illo!</p>
@@ -245,14 +266,14 @@
 				<div class="w-5 h-5 mt-4 bg-blue-400 absolute rounded-full transform z-20 -translate-x-2"></div>
 				<div class="bg-blue-100 w-0.5 h-36 transform scale-y-125"></div>
 			</div>
-			<div class="py-1 md:py-3 md:w-2/5">
+			<div data-aos="fade-left" data-aos-delay="400" class="py-1 md:py-3 md:w-2/5">
 				<div class="bg-purple-400 text-white rounded-md shadow-lg py-2 px-6">
 					<p>June 2009 - May 2015</p>
 				</div>
 			</div>
 		</div>
 		<div class="flex flex-col-reverse my-8 md:my-0 md:flex-row md:gap-12 justify-center w-4/5 mx-auto">
-			<div class="py-1 md:py-3 md:w-2/5">
+			<div data-aos="fade-right" data-aos-delay="600" class="py-1 md:py-3 md:w-2/5">
 				<div class="bg-white text-gray-700 w-full rounded shadow-lg p-4 text-center md:text-right">
 					<h2 class="font-semibold text-2xl">TK Kartini</h2>
 					<p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse recusandae necessitatibus, ratione ducimus reprehenderit, illo!</p>
@@ -262,7 +283,7 @@
 				<div class="w-5 h-5 mt-4 bg-blue-400 absolute rounded-full transform z-20 -translate-x-2"></div>
 				<div class="bg-blue-100 w-0.5 h-36 transform scale-y-125"></div>
 			</div>
-			<div class="py-1 md:py-3 md:w-2/5">
+			<div data-aos="fade-left" data-aos-delay="600" class="py-1 md:py-3 md:w-2/5">
 				<div class="bg-purple-400 text-white rounded-md shadow-lg py-2 px-6">
 					<p>June 2008 - May 2009</p>
 				</div>
@@ -278,71 +299,81 @@
 
 
 	<!-- Achievement -->
-	<div id="achievment" class="py-20 px-4 md:px-20 text-gray-600 ">
+	<div id="achievment" class="py-12 md:py-20 px-4 md:px-20 text-gray-600 ">
 		<h1 class="font-bold text-center text-4xl mb-5">Achievement</h1>
 		<div class="flex flex-col md:flex-row flex-wrap justify-evenly items-center">
 			<div class="md:w-1/3 p-6">
 				<div class="flex flex-col items-center text-center">
-					<div class="w-28 h-28 my-4">
+					<div data-aos="fade-up" data-aos-delay="400" class="w-28 h-28 my-4">
 						<img src="asset/achievment/2nd.svg" alt="second icon">
 					</div>
-					<h3 class="font-semibold text-2xl">2nd Place</h3>
-					<div class="font-light">
-						<p>Software Development Competition</p>
-						<p>UKM PCC Techcomfest</p>
-						<p class="text-sm italic">Politeknik Negeri Semarang , Semarang</p>
+					<div data-aos="flip-left">
+						<h3 class="font-semibold text-2xl">2nd Place</h3>
+						<div class="font-light">
+							<p>Software Development Competition</p>
+							<p>UKM PCC Techcomfest</p>
+							<p class="text-sm italic">Politeknik Negeri Semarang , Semarang</p>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="md:w-1/3 p-6">
 				<div class="flex flex-col items-center text-center">
-					<div class="w-28 h-28 my-4">
+					<div data-aos="fade-up" data-aos-delay="600" class="w-28 h-28 my-4">
 						<img src="asset/achievment/1st.svg" alt="first icon">
 					</div>
-					<h3 class="font-semibold text-2xl">1st Place</h3>
-					<div class="font-light">
-						<p>Web Design Competition</p>
-						<p>Prima Amikom</p>
-						<p class="text-sm italic">Amikom University , Purwokerto</p>
+					<div data-aos="flip-left" data-aos-delay="200">
+						<h3 class="font-semibold text-2xl">1st Place</h3>
+						<div class="font-light">
+							<p>Web Design Competition</p>
+							<p>Prima Amikom</p>
+							<p class="text-sm italic">Amikom University , Purwokerto</p>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="md:w-1/3 p-6">
 				<div class="flex flex-col items-center text-center">
-					<div class="w-28 h-28 my-4">
+					<div data-aos="fade-up" data-aos-delay="800" class="w-28 h-28 my-4">
 						<img src="asset/achievment/2nd.svg" alt="second icon">
 					</div>
-					<h3 class="font-semibold text-2xl">2nd Place</h3>
-					<div class="font-light">
-						<p>Web Design Competition</p>
-						<p>Intermedia Amikom</p>
-						<p class="text-sm italic">Amikom University , Purwokerto</p>
+					<div data-aos="flip-left" data-aos-delay="400">
+						<h3 class="font-semibold text-2xl">2nd Place</h3>
+						<div class="font-light">
+							<p>Web Design Competition</p>
+							<p>Intermedia Amikom</p>
+							<p class="text-sm italic">Amikom University , Purwokerto</p>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="md:w-1/3 p-6">
 				<div class="flex flex-col items-center text-center">
-					<div class="w-28 h-28 my-4">
+					<div data-aos="fade-up" data-aos-delay="1000" class="w-28 h-28 my-4">
 						<img src="asset/achievment/finalis.svg" alt="finalis icon">
 					</div>
-					<h3 class="font-semibold text-2xl">Finalis</h3>
-					<div class="font-light">
-						<p>Software Develoment Competition</p>
-						<p>UKM PCC Techcomfest</p>
-						<p class="text-sm italic">Politeknik Negeri Semarang , Semarang</p>
+					<div data-aos="flip-left" data-aos-delay="600">
+						<h3 class="font-semibold text-2xl">Finalis</h3>
+						<div class="font-light">
+							<p>Software Develoment Competition</p>
+							<p>UKM PCC Techcomfest</p>
+							<p class="text-sm italic">Politeknik Negeri Semarang , Semarang</p>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="md:w-1/3 p-6">
 				<div class="flex flex-col items-center text-center">
-					<div class="w-28 h-28 my-4">
+					<div data-aos="fade-up" data-aos-delay="1200" class="w-28 h-28 my-4">
 						<img src="asset/achievment/1st.svg" alt="first icon">
 					</div>
-					<h3 class="font-semibold text-2xl">1st Place</h3>
-					<div class="font-light">
-						<p>Web Design Competition</p>
-						<p>Lomba Kompetensi Siswa</p>
-						<p class="text-sm italic">SMK 01 Wanareja , Cilacap</p>
+					<div data-aos="flip-left" data-aos-delay="800">
+						<h3 class="font-semibold text-2xl">1st Place</h3>
+						<div class="font-light">
+							<p>Web Design Competition</p>
+							<p>Lomba Kompetensi Siswa</p>
+							<p class="text-sm italic">SMK 01 Wanareja , Cilacap</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -356,50 +387,50 @@
 
 
 	<!-- Certificate -->
-	<div id="certificate"  class="py-20 px-4 md:px-20 my-20 text-gray-600 bg-gray-100">
+	<div id="certificate"  class="py-12 md:py-20 px-4 md:px-20 my-20 text-gray-600 bg-gray-100">
 		<h1 class="font-bold text-center text-4xl mb-5">Certificate</h1>
 		<div class="flex flex-col md:flex-row flex-wrap justify-evenly">
-			<div class="md:w-1/3 p-2 md:p-6">
+			<div data-aos="fade-up" data-aos-delay="200" class="md:w-1/3 p-2 md:p-6">
 				<div class="w-full h-full bg-white flex items-center justify-center rounded-md bg-white shadow-md overflow-hidden">
 					<img src="asset/certificates/sertif-techcomfest2.jpg" alt="certificate techcomfest" class="h-full">
 				</div>
 			</div>
-			<div class="md:w-1/3 p-2 md:p-6">
+			<div data-aos="fade-up" data-aos-delay="400" class="md:w-1/3 p-2 md:p-6">
 				<div class="w-full h-full bg-white flex items-center justify-center rounded-md bg-white shadow-md overflow-hidden">
 					<img src="asset/certificates/sertif-techcomfest.jpg" alt="certificate techcomfest" class="h-full">
 				</div>
 			</div>
-			<div class="md:w-1/3 p-2 md:p-6">
+			<div data-aos="fade-up" data-aos-delay="600" class="md:w-1/3 p-2 md:p-6">
 				<div class="w-full h-full bg-white flex items-center justify-center rounded-md bg-white shadow-md overflow-hidden">
 					<img src="asset/certificates/sertif-prima.jpg" alt="certificate prima" class="h-full">
 				</div>
 			</div>
-			<div class="md:w-1/3 p-2 md:p-6">
+			<div data-aos="fade-up" data-aos-delay="200" class="md:w-1/3 p-2 md:p-6">
 				<div class="w-full h-full bg-white flex items-center justify-center rounded-md bg-white shadow-md overflow-hidden">
 					<img src="asset/certificates/sertif-prima2.jpg" alt="certificate prima" class="h-full">
 				</div>
 			</div>
-			<div class="md:w-1/3 p-2 md:p-6">
+			<div data-aos="fade-up" data-aos-delay="400" class="md:w-1/3 p-2 md:p-6">
 				<div class="w-full h-full bg-white flex items-center justify-center rounded-md bg-white shadow-md overflow-hidden">
 					<img src="asset/certificates/sertif-iitf.jpg" alt="certificate iitf" class="h-full">
 				</div>
 			</div>
-			<div class="md:w-1/3 p-2 md:p-6">
+			<div data-aos="fade-up" data-aos-delay="600" class="md:w-1/3 p-2 md:p-6">
 				<div class="w-full h-full bg-white flex items-center justify-center rounded-md bg-white shadow-md overflow-hidden">
 					<img src="asset/certificates/sertif-iitf2.jpg" alt="certificate iitf" class="h-full">
 				</div>
 			</div>
-			<div class="md:w-1/3 p-2 md:p-6">
+			<div data-aos="fade-up" data-aos-delay="200" class="md:w-1/3 p-2 md:p-6">
 				<div class="w-full h-full bg-white flex items-center justify-center rounded-md bg-white shadow-md overflow-hidden">
 					<img src="asset/certificates/sertif-lks1.jpg" alt="certificate lks" class="h-full">
 				</div>
 			</div>
-			<div class="md:w-1/3 p-2 md:p-6">
+			<div data-aos="fade-up" data-aos-delay="400" class="md:w-1/3 p-2 md:p-6">
 				<div class="w-full h-full bg-white flex items-center justify-center rounded-md bg-white shadow-md overflow-hidden">
 					<img src="asset/certificates/sertif-lks2.jpg" alt="certificate lks" class="h-full">
 				</div>
 			</div>
-			<div class="md:w-1/3 p-2 md:p-6">
+			<div data-aos="fade-up" data-aos-delay="600" class="md:w-1/3 p-2 md:p-6">
 				<div class="w-full h-full bg-white flex items-center justify-center rounded-md bg-white shadow-md overflow-hidden">
 					<img src="asset/certificates/sertif-lks3.jpg" alt="certificate lks" class="h-full">
 				</div>
@@ -416,10 +447,10 @@
 
 
 	<!-- Portofolio -->
-	<div id="portofolio" class="py-20 px-4 md:px-20 my-20 text-gray-600">
+	<div id="portofolio" class="py-4 md:py-20 px-4 md:px-20 my-20 text-gray-600">
 		<h1 class="font-bold text-center text-4xl mb-5">Portofolio</h1>
 		<div class="flex flex-col md:flex-row flex-wrap justify-evenly">
-			<div class="md:w-1/3 p-2 md:p-6">
+			<div data-aos="fade-up" data-aos-delay="200" class="md:w-1/3 p-2 md:p-6">
 				<div class="bg-white h-full rounded-lg shadow-lg overflow-hidden">
 					<div class="thumbnail bg-blue-900 h-56 flex items-center justify-center">
 						<img src="asset/portofolios/eclass.jpg" alt="eclass image">
@@ -432,7 +463,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="md:w-1/3 p-2 md:p-6">
+			<div data-aos="fade-up" data-aos-delay="400" class="md:w-1/3 p-2 md:p-6">
 				<div class="bg-white h-full rounded-lg shadow-lg overflow-hidden">
 					<div class="thumbnail bg-green-500 h-56 flex items-center justify-center">
 						<img src="asset/portofolios/realita.jpg" alt="realita image">
@@ -445,7 +476,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="md:w-1/3 p-2 md:p-6">
+			<div data-aos="fade-up" data-aos-delay="600" class="md:w-1/3 p-2 md:p-6">
 				<div class="bg-white h-full rounded-lg shadow-lg overflow-hidden">
 					<div class="thumbnail h-56 flex items-center justify-center">
 						<img src="asset/portofolios/screening.jpg" alt="screening image">
@@ -459,7 +490,7 @@
 				</div>
 			</div>
 			<div class="md:w-1/3 p-2 md:p-6">
-				<div class="bg-white h-full rounded-lg shadow-lg overflow-hidden">
+				<div data-aos="fade-up" data-aos-delay="200" class="bg-white h-full rounded-lg shadow-lg overflow-hidden">
 					<div class="thumbnail h-56 flex items-center justify-center">
 						<img src="asset/portofolios/money_management.jpg" alt="mm image">
 					</div>
@@ -472,7 +503,7 @@
 				</div>
 			</div>
 			<div class="md:w-1/3 p-2 md:p-6">
-				<div class="bg-white h-full rounded-lg shadow-lg overflow-hidden">
+				<div data-aos="fade-up" data-aos-delay="400" class="bg-white h-full rounded-lg shadow-lg overflow-hidden">
 					<div class="thumbnail h-56 flex items-center justify-center">
 						<img src="asset/portofolios/millenial.jpg" alt="millenial image">
 					</div>
@@ -485,7 +516,7 @@
 				</div>
 			</div>
 			<div class="md:w-1/3 p-2 md:p-6">
-				<div class="bg-white h-full rounded-lg shadow-lg overflow-hidden">
+				<div data-aos="fade-up" data-aos-delay="600" class="bg-white h-full rounded-lg shadow-lg overflow-hidden">
 					<div class="thumbnail h-56 flex items-center justify-center">
 						<img src="asset/portofolios/sekolah_online.jpg" alt="sekolah_online image">
 					</div>
@@ -508,6 +539,20 @@
 		&copy; 2021 Abdul Latif Mubasir. All right reserved.
 	</footer>
 
+
+
+
+
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			// Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+			  offset: 120, // offset (in px) from the original trigger point
+			  delay: 0, // values from 0 to 3000, with step 50ms
+			  duration: 1000, // values from 0 to 3000, with step 50ms
+			  easing: 'ease-out-back', // default easing for AOS animations
+			});
+	</script>
 
 
 </body>
